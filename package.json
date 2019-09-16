@@ -1,7 +1,7 @@
 {
   "name": "react-playground",
   "version": "0.1.0",
-  "private": true,
+  "author": "AdrianAgui",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -14,7 +14,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "eslint:recommended", 
+      "plugin:react/recommended"
+    ]
   },
   "browserslist": {
     "production": [
@@ -27,5 +30,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-plugin-react": "^7.14.3"
   }
 }
