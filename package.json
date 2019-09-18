@@ -1,8 +1,16 @@
 {
   "name": "react-playground",
   "version": "0.1.0",
-  "author": "AdrianAgui",
+  "author": {
+    "name": "AdrianAgui",
+    "email": "adrian.agui9@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdrianAgui/react-playground"
+  },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
@@ -15,7 +23,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "eslint:recommended", 
+      "eslint:recommended",
       "plugin:react/recommended"
     ]
   },
