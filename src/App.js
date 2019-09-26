@@ -1,11 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
+
+import Skills from './components/Skills'
+
 import './App.css';
 
-class App extends Component {
+
+class App extends React.Component {
   
   state = {
-    logo: true,
+    logo: false,
     title: 'Welcome to my React JS Playground'
   }
 
@@ -43,6 +47,11 @@ class App extends Component {
           >
             Learn React
           </a></kbd>
+
+          <hr />
+
+          <Skills />
+
         </body>
 
         <footer className="app-footer">
