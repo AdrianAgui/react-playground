@@ -1,13 +1,11 @@
 # react-playground
+
 Playground for React library by @AdrianAgui
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Style guide to follow:
 https://github.com/airbnb/javascript/tree/master/react
-
-API Endpoints:
-https://www.watchieapp.com/home
 
 ## Available Scripts
 

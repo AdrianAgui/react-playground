@@ -28,6 +28,12 @@
       "git add"
     ]
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
