@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Style guide to follow:
 https://github.com/airbnb/javascript/tree/master/react
 
+API Endpoints:
+https://www.watchieapp.com/home
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -4,23 +4,27 @@
   justify-content: stretch;
 }
 
-.app-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .app-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
   background-color: #282c34;
   min-height: 10vh;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.app-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  min-height: 100%;
+
 }
 
 .app-footer {
@@ -28,7 +32,10 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
-  flex-shrink: 0;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 
   min-height: 10vh;
   background-color: #282c34;
@@ -52,6 +59,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
