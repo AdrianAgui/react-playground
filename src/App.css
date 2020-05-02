@@ -24,7 +24,6 @@
 
   height: 100%;
   min-height: 100%;
-
 }
 
 .app-footer {
@@ -42,7 +41,6 @@
   font-size: 18px;
   color: white;
 }
-
 
 .app-logo {
   animation: App-logo-spin infinite 15s linear;
