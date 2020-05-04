@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "./assets/img/logo.svg";
+import logo from "../../assets/img/logo.svg";
 
-import Skills from "./components/Skills";
+import Skills from "../../components/Skills/Skills";
 
 import "./App.css";
 
@@ -29,21 +29,14 @@ class App extends React.Component {
             Toggle React logo
           </button>
 
-          {this.state.logo ? (
-            <img src={logo} className="app-logo" alt="logo" />
-          ) : null}
+          {this.state.logo ? <img src={logo} className="app-logo" alt="logo" /> : null}
 
           <p>
             <code>{this.state.title}</code>
           </p>
 
           <kbd>
-            <a
-              className="app-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a className="app-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
               Learn React
             </a>
           </kbd>
@@ -54,9 +47,7 @@ class App extends React.Component {
         </body>
 
         <footer className="app-footer">
-          <code className="text-light mb-5 mr-5">
-            Adrián Aguirre, all rights reserved &#169;
-          </code>
+          <code className="text-light mb-5 mr-5">Adrián Aguirre, all rights reserved &#169;</code>
         </footer>
       </div>
     );
