@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../assets/img/logo.svg";
+import logo from "../assets/img/logo.svg";
 
-import Skills from "../../components/Skills/Skills";
+import Skills from "../components/skills/Skills";
 
 import "./App.css";
 
