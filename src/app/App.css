@@ -16,7 +16,7 @@
   color: white;
 }
 
-.app-body {
+.app-main {
   display: flex;
   flex-direction: column;
   justify-content: center;

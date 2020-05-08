@@ -22,8 +22,8 @@ class App extends React.Component {
           <h2 className="mb-5">Welcome to my React Playground</h2>
         </header>
 
-        <body className="app-body">
-          <h1 className="mb-5">Body of React playground</h1>
+        <main className="app-main">
+          <h1 className="mb-5">Main of React playground</h1>
 
           <button className="btn btn-primary mb-3" onClick={this.toggleLogo}>
             Toggle React logo
@@ -44,7 +44,7 @@ class App extends React.Component {
           <hr />
 
           <Skills />
-        </body>
+        </main>
 
         <footer className="app-footer">
           <code className="text-light mb-5 mr-5">Adrián Aguirre, all rights reserved &#169;</code>
